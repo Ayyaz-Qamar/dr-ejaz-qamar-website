@@ -18,6 +18,30 @@ export const metadata: Metadata = {
   title: "Dr. Muhammad Ejaz Qamar | Orthopaedic Surgeon & Specialist",
   description:
     "Dr. Muhammad Ejaz Qamar - Orthopaedic Surgeon & Specialist. Book an appointment today.",
+  openGraph: {
+    title: "Dr. Muhammad Ejaz Qamar | Orthopaedic Surgeon & Specialist",
+    description:
+      "PMDC Certified Orthopaedic Surgeon & Specialist. Book your appointment online.",
+    url: "https://dr-ejaz-qamar-website.vercel.app",
+    siteName: "Dr. Muhammad Ejaz Qamar",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dr. Muhammad Ejaz Qamar - Orthopaedic Surgeon & Specialist",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dr. Muhammad Ejaz Qamar | Orthopaedic Surgeon & Specialist",
+    description:
+      "PMDC Certified Orthopaedic Surgeon & Specialist. Book your appointment online.",
+    images: ["/og-image.jpg"],
+  },
 };
 
 export default function RootLayout({
