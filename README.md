@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. Muhammad Ejaz Qamar - Orthopaedic Surgeon & Specialist
 
-## Getting Started
+Professional medical website for Dr. Muhammad Ejaz Qamar, an Orthopaedic Surgeon & Specialist (PMDC Certified) based in Muzaffarabad, Azad Kashmir.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Single-scroll landing page (Hero, About, Qualifications, Services, Contact)
+- Online appointment booking system with date-based availability
+- Automated email confirmation/rejection notifications for patients
+- WhatsApp integration for instant appointment request alerts
+- Admin dashboard for managing appointment requests (login-protected)
+- Fully responsive design for mobile and desktop
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Database:** PostgreSQL (Neon)
+- **ORM:** Drizzle ORM
+- **Email:** Resend
+- **Icons:** Lucide React
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Doctor's Profile
 
-## Learn More
+- MBBS — Ayub Medical College, Abbottabad
+- Orthopaedic Specialization — PMDC Certified
+- Former Registrar — PIMS, Islamabad
+- Former Resident Surgeon — H.H. Sheikh Khalifa Bin Zayed Hospital A.K. CMH Muzaffarabad
+- Former Medical Officer — THQ Kel & DHQ Neelum
+- Currently serving at DHQ Hospital, Bagh
+- Private Clinic — Usman Plaza, Basement, Opposite H.H. Sheikh Khalifa Bin Zayed Hospital A.K. CMH Muzaffarabad
 
-To learn more about Next.js, take a look at the following resources:
+## Clinic Timings
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Friday & Saturday: 10:00 AM – 5:00 PM
+- Sunday – Thursday: 6:00 PM – 8:00 PM
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Phone: 0300-7582959
